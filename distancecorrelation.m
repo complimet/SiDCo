@@ -1,6 +1,6 @@
 
 function [DC, pDC]=distancecorrelation(mat1)
-% MCuperlovicCulf, Canada, 2020
+% copyright MCuperlovicCulf, Canada, 2020
 % calculated distance correlation  with p-value for all elements of mat1 by
 % features are in columns, samples rows
 % input - matrix of data for correlation analysis
