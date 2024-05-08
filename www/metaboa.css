@@ -1,0 +1,133 @@
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  src: url('Montserrat-Regular.eot');
+  src: url('Montserrat-Regular.eot?#iefix') format('embedded-opentype'),
+       url('Montserrat-Regular.woff') format('woff'),
+       url('Montserrat-Regular.ttf') format('truetype'),
+       url('Montserrat-Regular.svg#Montserrat-Regular') format('svg');
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  src: url('Montserrat-Bold.eot?#iefix') format('embedded-opentype'),
+       url('Montserrat-Bold.woff') format('woff'),
+       url('Montserrat-Bold.ttf') format('truetype'),
+       url('Montserrat-Bold.svg#Montserrat-Bold') format('svg');
+}
+
+* {font-family: Montserrat !important;}
+
+body {
+font-family: Montserrat;
+}
+
+.verticalcenter {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.verticaltop {
+  display: inline-block;
+  vertical-align: top;
+}
+
+
+.logo {
+  background-color: #222d32 !important;
+  text-align: left !important;
+  width: 250px !important;
+  display: inline-block;
+  padding-left: 10px; 
+}
+
+.sidebar-toggle .nav .navbar {
+  background-color: #222d32 !important;
+}
+
+
+#link_to_ana #link_to_ins{
+	padding: 20px
+	
+}
+
+#tbs{
+	font-size: 16px;
+	
+}
+
+
+.main-sidebar  {        
+  width: 150px;      
+}
+
+#sidebarCollapsed{
+ width: 150px;
+ background-color: #222d32;
+
+}	
+
+.main-header > .navbar {        
+margin-left: 200px;      
+}    
+  
+.main-header .logo {         
+width: 200px;      
+}      
+.content-wrapper, .main-footer, .right-side {
+	margin-left: 200px;      
+}    
+
+.sidebar-collapse .main-sidebar {
+	display:none;
+	background-color: #222d32;
+	
+}
+
+
+a:link#logomainlink {
+  color: white;
+  background-color: transparent;
+}
+
+a:visited#logomainlink {
+  color: white;
+  background-color: transparent;
+}
+
+a:hover#logomainlink {
+  color: white;
+  background-color: transparent;
+}
+
+a:active#logomainlink {
+  color: white;
+  background-color: transparent;
+}
+
+
+a:link#logomainlink {
+  color: white;
+  background-color: transparent;
+}
+
+a.smenu:link {
+  color: white !important;
+}
+
+ a.smenu:visited {
+  color: #c15abc !important;
+}
+
+ a.smenu:hover {
+  color: #d2406a !important;
+}
+
+ a.smenu:active {
+  color: #776aca !important;
+}
